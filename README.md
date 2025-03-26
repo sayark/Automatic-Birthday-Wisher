@@ -2,8 +2,8 @@ import pandas as pa
 import datetime
 import smtplib
 
-gmail_id='sayalikate4039@gmail.com'
-gmail_password='trfa yotr jgos cwjq'
+gmail_id='Your_mail@gmail.com'
+gmail_password='XXXXXXXXXX'
 def send_email(to,sub,msg):
     s=smtplib.SMTP('smtp.gmail.com',587)
     s.starttls()
